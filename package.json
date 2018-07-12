@@ -1,0 +1,19 @@
+{
+  "name": "blog-api-challenge",
+  "version": "1.0.0",
+  "description": "blog api challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KevinSmhevin/blog-api-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinSmhevin/blog-api-2/issues"
+  },
+  "homepage": "https://github.com/KevinSmhevin/blog-api-2#readme"
+}
