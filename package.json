@@ -2,9 +2,9 @@
   "name": "blog-api-challenge",
   "version": "1.0.0",
   "description": "blog api challenge",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,17 @@
   "bugs": {
     "url": "https://github.com/KevinSmhevin/blog-api-2/issues"
   },
-  "homepage": "https://github.com/KevinSmhevin/blog-api-2#readme"
+  "homepage": "https://github.com/KevinSmhevin/blog-api-2#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.2.3",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.18.1"
+  },
+  "devDependencies": {
+    "dotenv": "^6.0.0"
+  }
 }
